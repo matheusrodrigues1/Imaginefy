@@ -38,7 +38,7 @@ const MobileNav = () => {
             </SheetTrigger>
             <SheetContent className="sheet-content sm:w-64">
               <>
-                <Image 
+                <Image
                   src="/assets/images/logo-text.svg"
                   alt="logo"
                   width={152}
@@ -50,7 +50,7 @@ const MobileNav = () => {
                   const isActive = link.route === pathname
 
                   return (
-                    <li 
+                    <li
                       className={`${isActive && 'gradient-text'} p-18 flex whitespace-nowrap text-dark-700`}
                       key={link.route}
                       >
