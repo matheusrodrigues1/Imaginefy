@@ -75,6 +75,7 @@
   }
 }
 
+/* clerk authentication */
 .auth {
   @apply flex-center min-h-screen w-full bg-purple-100
 }

@@ -1,8 +1,12 @@
-const Home = async () => {
+import { UserButton } from "@clerk/nextjs"
 
+const Home = async () => {
   return (
     <>
-      <div>Home</div>
+      <div>
+        <p>Home</p>
+        <UserButton afterSignOutUrl="/"/>
+      </div>
     </>
   )
 }
