@@ -294,7 +294,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
         </div>
 
         <div className="flex flex-col gap-4">
-          <Button 
+          <Button
             type="button"
             className="submit-button capitalize"
             disabled={isTransforming || newTransformation === null}
@@ -302,7 +302,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
           >
             {isTransforming ? 'Transforming...' : 'Apply Transformation'}
           </Button>
-          <Button 
+          <Button
             type="submit"
             className="submit-button capitalize"
             disabled={isSubmitting}
