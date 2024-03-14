@@ -26,8 +26,8 @@ Clique aqui  ↓↓↓</br>
 
   ## Como Executar
 
-  1. Clone o repositório: `git clone git@github.com:matheusrodrigues1/evently.git`
-  2. Entre na pasta raiz do projeto: `cd evently`
+  1. Clone o repositório: `git clone https://github.com/matheusrodrigues1/Imaginefy`
+  2. Entre na pasta raiz do projeto: `cd imaginify`
   3. Instale as dependência: `npm install`
   4. Rode o servidor: `npm run dev`
 
